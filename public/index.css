@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-image: url(pedro-kummel-RmSpyCERiH4-unsplash.jpg);
+    width: 100%;
+    height: 705px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+
+.nav-link{
+    
+    font-family: sans-serif;
+    margin-left: 30px;
+}
+.content{
+    color: white;
+    text-align: center; 
+    padding-top: 150px;
+    font-family: Arial;
+    
+}
+
+.f{
+   font-size: 30px;
+}
+
+.t{
+   font-size: 20px;
+    text-align: justify;
+
+}
+
+.btn{
+    
+    border-radius: 5px;
+    border:1px solid #007bff !important;
+    background-color:transparent;
+    color: white;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: #007bff ;
+
+}
+
+
+.icon{
+    padding-top: 80px;
+ 
+}
+.sec1{
+    color: white;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 0.6;
+    padding: 5px;
+    cursor: pointer;
+}
+.sec1:hover{
+
+    color:#FFA115 ;
+    border-bottom: 4px solid #FFA115;
+
+}
+
+.sec2{
+    color: white;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 0.6;
+    padding: 10px;
+    cursor: pointer;
+}
+.sec2:hover{
+
+    color:#FFA115 ;
+    border-bottom: 4px solid #FFA115;
+
+}
+.cog{
+    color: white;
+    padding: 10px;
+}
+.cog:hover{
+    color: #FFA115;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+   
+    .main{
+        height: 620px;
+    }
+    .content{
+        padding-top: 50px;
+    }
+    .f{
+        font-size: 25px;
+    }
+     
+     .t{
+        font-size: 15px;
+        text-align: justify;
+    }
+    .icon{
+        padding-top: 70px;
+     
+    }
+     .sec1{
+         padding: 1px;
+    }
+     .sec2{
+        padding: 7px;
+    }
+}
+@media only screen and (min-width: 992px) {
+   
+    
+    .content{
+        padding-top:60px;
+    }
+    .icon{
+        padding-top: 50px;
+     
+    }.main{
+        height: 665px;
+    }
+
+}
+@media only screen and (min-width: 1200px) {
+   
+
+    .icon{
+        padding-top: 160px;
+     
+    }
+    .main{
+        height: 705px;
+    }
+
+}
+
+
+
